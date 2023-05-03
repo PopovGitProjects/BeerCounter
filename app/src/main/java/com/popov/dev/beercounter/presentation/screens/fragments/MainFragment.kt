@@ -91,9 +91,7 @@ class MainFragment : Fragment() {
 //                launchFragment(ShopItemFragment.newInstanceEditItem(it.id))
 //            }
             findNavController().navigate(R.id.action_MainFragment_to_EditFragment)
-//            findNavController().navigate()
         }
-
     }
     companion object{
         private const val TYPE = true
